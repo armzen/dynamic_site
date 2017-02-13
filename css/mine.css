@@ -1,0 +1,112 @@
+html,body, nav.navbar,h2 {
+    margin:0;
+    padding:0
+}
+
+body{
+    font-family: sans-serif;
+}
+p{
+    margin:0 10px 10px
+}
+.h2{
+    padding: 8px 24px;
+    text-decoration: underline;
+}
+
+.articles{
+    font-size: 1.68rem;
+}
+
+.articles_full{
+    font-size: 1.8rem;
+    line-height: 170%;
+    padding: 2.2rem 1rem;
+}
+
+.articles_full_i{
+    font-size: 1.8rem;
+    line-height: 160%;
+    padding: 2.2rem 1rem;
+    font-stretch: condensed;
+}
+
+a{
+    display:block;
+    color: #981793;
+    padding:10px;
+}
+.btn-primary{
+    padding: 1rem 4rem;
+    text-align: center;
+    margin-left: 7rem;
+}
+.center{
+    text-align: center;
+}
+div#header h1{        
+    height:11rem;
+    line-height:10rem;
+    margin:0;
+    padding-left:27px;
+    background: #EEE;
+    color: #a24d77;
+    text-align: center;
+}
+
+.navbar-brand img{
+    width: 5rem;
+    height: 4.4rem;
+   position: relative;
+    top: -11px;
+    left: 9px;
+}
+
+ul#login{ 
+    padding-top: 0.8rem
+}
+.checkbox{
+    margin: 0 8px;
+}
+div#content p{ 
+    line-height:1.6 
+}
+
+/*div#navigation{ background:#B9CAFF }*/
+
+div#extra{
+    background:rgba(255, 179, 57, 0.06);
+    padding: 12px 4px;
+    height:auto;
+
+}
+div#right{
+    border-left: 1px dashed #a5a5a5;
+    min-height: 300px;
+}
+
+div#wrapper > hr{
+
+}
+
+div#content{
+    padding: 12px 0;
+}
+
+div#footer{
+    background: #333;
+    color: #FFF
+}
+
+div#footer p{
+    margin:0;
+    padding:15px 25px;
+}
+
+div#footer{
+    clear:both;
+    width:100%
+}
+hr.hor{
+    
+}

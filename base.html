@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Layout 23</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+    
+    html,body, nav.navbar,h2 {
+        margin:0;
+        padding:0
+    }
+    
+    body{
+        font-family: sans-serif;
+    }
+    p{
+        margin:0 10px 10px
+    }
+    h2{
+        padding: 10px; 
+        
+    }
+    a{
+        display:block;
+        color: #981793;
+        padding:10px
+    }
+    
+    div#header h1{        
+        height:80px;
+        line-height:80px;
+        margin:0;
+        padding-left:27px;
+        background: #EEE;
+        color: #79B30B
+    }
+    .navbar-brand img{
+        width: 5rem;
+        height: 4.4rem;
+       position: relative;
+        top: -11px;
+        left: 9px;
+    }
+
+    ul#login{ 
+        padding-top: 0.8rem
+    }
+
+    div#content p{ 
+        line-height:1.6 
+    }
+    
+    /*div#navigation{ background:#B9CAFF }*/
+    
+    div#extra{
+        background:rgba(255, 179, 57, 0.06);
+        padding: 12px 4px; 
+        border-left: 1px dashed #a5a5a5;
+    }
+
+    div#wrapper{
+
+    }
+    
+    div#content{
+        padding: 12px 0;
+    }
+    
+    div#footer{
+        background: #333;
+        color: #FFF
+    }
+    
+    div#footer p{
+        margin:0;
+        padding:15px 25px;
+    }
+    
+    div#footer{
+        clear:both;
+        width:100%
+    }
+    
+</style>
+</head>
+<body>
+<div id="container">
+   
+    <div id="header">
+        <h1>Header</h1>
+        
+        <nav role="navigation" class="navbar navbar-default ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">
+                    <img src="images/logo.jpg" alt="" class="img-rounded">
+                </a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse ">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="regis.php">Registration</a></li>
+                    <li><a href="articles.php">Articles</a></li>
+                    <li><a href="guestbook.php">Guestbook</a></li>
+                    <li><a href="messages.php">Messages</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="login">
+                <li>
+                    <!--a href="#">Login</a-->
+                    <div class="col-xs-12 col-md-12 col-sm-6">
+                        <form class="form-inline" role="form" method="post" action="auth.php">
+                        <div class="form-group">
+                            <label class="sr-only" for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="inputPassword">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" name="btn_auth">Login</button>
+                        </form>
+                    </div>
+               
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </div> <!--End of header -->
+    
+    <div id="wrapper" class="col-md-10">
+        <div id="content">
+        <h2>Main Article</h2>
+        <p><strong>1) Content here.</strong> column long long column very long fill fill fill long text text column text silly very make long very fill silly make make long make text fill very long text column silly silly very column long very column filler fill long make filler long silly very long silly silly silly long filler make column filler make silly long long fill very.</p>
+        <p>very make make fill silly long long filler column long make silly silly column filler fill fill very filler text fill filler column make fill make text very make make very fill fill long make very filler column very long very filler silly very make filler silly make make column column </p>
+        <p>fill long make long text very make long fill column make text very silly column filler silly text fill text filler filler filler make make make make text filler fill column filler make silly make text text fill make very filler column very </p>
+        <p>column text long column make silly long text filler silly very very very long filler fill very fill silly very make make filler text filler text make silly text text long fill fill make text fill long text very silly long long filler filler fill silly long make column make silly long column long make very </p>
+        </div>
+    </div><!-- End of wrapper -->
+
+    
+    <div id="extra" class="col-md-2">
+    <p><strong>3) More stuff here.</strong> very text make long column make filler fill make column column silly filler text silly column fill silly fill column text filler make text silly filler make filler very silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very </p>
+    </div>
+    
+    <div id="footer" class="footer">       
+        <p>Here it goes the footer
+            <span class="text-muted">Place sticky footer content here.</span>
+        </p>
+    </div>
+    
+</div><!-- End of container -->
+
+
+</body>
+</html>

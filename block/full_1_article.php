@@ -1,5 +1,6 @@
 <div id="wrapper" class="col-md-10">
 <div id="content">
+
     <h2 class="h2 col-md-12">Full Article 1.(samsung) PRODUCT HIGHLIGHTS</h2>        
         <div class="col-md-7 articles_full_i">
             <ul>
@@ -17,9 +18,9 @@
                 <li> Wireless charging (Qi/PMA)</li>
                 <li> 3,600 mAh non-removable battery, fast charging</li>
             </ul>
-        </div>
+		</div>
     <div class="col-md-5 thumbnail">
         <img src="./images/fullsamsunggalaxys7.jpg" alt="">
-    </div>  
-</div>   
+    </div>
 </div>
+</div>   

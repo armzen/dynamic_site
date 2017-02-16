@@ -1,5 +1,5 @@
 <div id="header">
-<h1 id="hash1">Header. Best smartphones 2017</h1>
+<h1 id="hash1">Best smartphones 2017</h1>
 
 <nav role="navigation" class="navbar navbar-default ">
 <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,7 +19,19 @@
         <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
             <li><a href="regis.php">Registration</a></li>
-            <li><a href="all_articles.php">Articles</a></li>
+			 <li class="dropdown">
+						<a href="all_articles.php" data-toggle="dropdown" class="dropdown-toggle">
+						Articles <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="all_articles.php">Top Phones</a></li>
+							<li class="divider"></li>
+							<li><a href="article_1.php">Samsung Galaxy S7 edge</a></li>
+							<li><a href="article_2.php">Google Pixel</a></li>
+							<li><a href="article_3.php">Apple iPhone 7</a></li>							
+							<li><a href="article_4.php">OnePlus 3T</a></li>
+						</ul>
+					</li>
             <li><a href="guestbook.php">Guestbook</a></li>
             <li><a href="messages.php">Messages</a></li>
         </ul>

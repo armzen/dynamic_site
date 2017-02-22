@@ -15,7 +15,7 @@ $one_art=<<<arm
 <div id="wrapper" class="col-md-10">
 <div id="content">
 
-    <h2 class="h2 col-md-12">$id. $title PRODUCT HIGHLIGHTS</h2>        
+    <h2 class="h2 col-md-12">$id. $title. PRODUCT HIGHLIGHTS</h2>        
         <div class="col-md-7 articles_full_i">
             $full_text
 		</div>

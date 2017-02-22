@@ -30,7 +30,7 @@
         
     <!--# wrapper > #content (articles) -->    
        <?php
-        require_once "block/mine_artice.php";
+        require_once "block/main_artice.php";
         ?>
         
     <!-- #right > #extra-->    
@@ -44,5 +44,6 @@
         ?>    
     
 </div><!-- End of container -->
+
 </body>
 </html>

@@ -1,3 +1,4 @@
 <?php
-    require_once "./lib/functions.php";
+session_start();
+require_once "./lib/functions.php";
 ?>

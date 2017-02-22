@@ -14,9 +14,24 @@ p{
 
 .articles{
     font-size: 1.68rem;
+	box-shadow: 1px 1px 15px grey;
+	z-index: 1000;
+	padding-top:2rem;
+}
+.img-thumbnail, .thumbnail:hover{
+	transition:  transform 1s , position 1s ease-in;
+}
+.img-thumbnail, .thumbnail:hover{
+	
+	z-index:1001;
+	box-shadow: 1px 1px 15px grey;
+	position:relative;
+	//top:-15px;
+	//left:-20px;
+	transform:scale(1.1);
 }
 
-.articles_full{
+.articles{
     font-size: 1.8rem;
     line-height: 170%;
     padding: 2.2rem 1rem;
@@ -28,14 +43,16 @@ p{
     padding: 2.2rem 1rem;
     font-stretch: condensed;
 }
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    box-shadow: -2px 2px 11px rgba(196, 189, 230, 0.74) !important;
+}
 a{
     display:block;
     color: #981793;
     padding:10px;
 }
 .btn-primary{
-    padding: 1rem 4rem;
+    padding: 0.6rem 4rem;
     text-align: center;
 }
 .center{
@@ -43,7 +60,7 @@ a{
 }
 
 div#header h1 {
-    height: 11rem;
+    //height: 11rem;
     line-height: 10rem;
     margin: 0;
     padding-left: 27px;
@@ -67,7 +84,9 @@ div#header h1 {
 ul#login{ 
     padding-top: 0.8rem
 }
-
+.navbar-nav > li > .dropdown-menu {
+	z-index: 2000;
+}
 .checkbox{
     margin: 0 8px;
 }
@@ -111,4 +130,25 @@ div#footer p{
 div#footer{
     clear:both;
     width:100%
+}
+.guest_back{
+    height:auto;
+    background-image: url(../images/guest_back.png);
+    background-position: center;
+    filter: contrast(1.1);
+    margin-bottom: 0px;
+}
+.btn-guest {
+    padding: 0.6rem 1rem !important;
+}
+.guest_div{
+	min-height: 270px;
+}
+.reg {	
+	margin-bottom:90px; 
+}
+.small{	
+	color: #70ec13;
+	font-style: oblique;
+	font-size:14px; 
 }
